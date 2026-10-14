@@ -95,7 +95,7 @@ python3 -c 'import sys; print(repr(sys.argv))' one two words
 
 ~~~bash
 args=(--epochs 20 --weights 'best model.pt')
-printf '<%s>\n' "`{args[@]}"
+printf '<%s>\n' "${args[@]}"
 ~~~
 
 Здесь `${args[@]}` подставляет элементы массива как отдельные аргументы; кавычки сохраняют пробелы внутри каждого элемента. Это стоит помнить, когда начнёшь писать оболочку вокруг обучения PyTorch.
