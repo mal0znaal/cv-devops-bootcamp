@@ -1,0 +1,13 @@
+name: Validate Killercoda course
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+jobs:
+  validate:
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/checkout@v4
+      - name: Verify manifests, lesson files and bash syntax
+        run: python3 scripts/validate_course.py
