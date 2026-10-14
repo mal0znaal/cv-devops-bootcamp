@@ -1,0 +1,27 @@
+{
+  "title": "32. Инциденты: гипотезы, симптомы, команды и runbook",
+  "description": "Теория системной диагностики и два самостоятельных исследования",
+  "details": {
+    "intro": {
+      "text": "intro.md"
+    },
+    "steps": [
+      {
+        "title": "Собери минимальный безопасный диагностический отчёт",
+        "text": "step1/text.md",
+        "verify": "step1/verify.sh"
+      },
+      {
+        "title": "Напиши объяснение причин, а не перечень команд",
+        "text": "step2/text.md",
+        "verify": "step2/verify.sh"
+      }
+    ],
+    "finish": {
+      "text": "finish.md"
+    }
+  },
+  "backend": {
+    "imageid": "ubuntu"
+  }
+}

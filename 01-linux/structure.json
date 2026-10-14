@@ -1,6 +1,6 @@
 {
-  "title": "Модуль 01 · Linux: фундамент",
-  "description": "Подробная теория, практика в Ubuntu, чтение документации, автопроверки",
+  "title": "Модуль 01 · Linux от нуля до диагностики сервера",
+  "description": "34 урока: теория, практика, справка, автопроверки, сервисы, Bash и итоговая миссия",
   "items": [
     {
       "path": "lesson-01"
@@ -16,6 +16,93 @@
     },
     {
       "path": "lesson-05"
+    },
+    {
+      "path": "lesson-06"
+    },
+    {
+      "path": "lesson-07"
+    },
+    {
+      "path": "lesson-08"
+    },
+    {
+      "path": "lesson-09"
+    },
+    {
+      "path": "lesson-10"
+    },
+    {
+      "path": "lesson-11"
+    },
+    {
+      "path": "lesson-12"
+    },
+    {
+      "path": "lesson-13"
+    },
+    {
+      "path": "lesson-14"
+    },
+    {
+      "path": "lesson-15"
+    },
+    {
+      "path": "lesson-16"
+    },
+    {
+      "path": "lesson-17"
+    },
+    {
+      "path": "lesson-18"
+    },
+    {
+      "path": "lesson-19"
+    },
+    {
+      "path": "lesson-20"
+    },
+    {
+      "path": "lesson-21"
+    },
+    {
+      "path": "lesson-22"
+    },
+    {
+      "path": "lesson-23"
+    },
+    {
+      "path": "lesson-24"
+    },
+    {
+      "path": "lesson-25"
+    },
+    {
+      "path": "lesson-26"
+    },
+    {
+      "path": "lesson-27"
+    },
+    {
+      "path": "lesson-28"
+    },
+    {
+      "path": "lesson-29"
+    },
+    {
+      "path": "lesson-30"
+    },
+    {
+      "path": "lesson-31"
+    },
+    {
+      "path": "lesson-32"
+    },
+    {
+      "path": "lesson-33"
+    },
+    {
+      "path": "lesson-34"
     }
   ]
 }
