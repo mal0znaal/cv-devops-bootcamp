@@ -42,3 +42,24 @@ MODE=production python3 -c 'import os; print(os.getenv("MODE"))'
 **Не срезай углы:** не пытайся исправить окружение сервиса массовым `source ~/.bashrc`. Сначала выясни, кто запускает приложение и какие переменные ему передаются.
 
 **Источники:** [Bash Environment](https://www.gnu.org/software/bash/manual/html_node/Environment.html), [systemd.exec](https://www.freedesktop.org/software/systemd/man/latest/systemd.exec.html).
+
+## Как проверить наследование окружения без догадок
+
+~~~bash
+CV_TEST=local
+python3 -c 'import os; print(os.getenv("CV_TEST"))'
+export CV_TEST
+python3 -c 'import os; print(os.getenv("CV_TEST"))'
+~~~
+
+В первой ситуации `CV_TEST` существует только в shell и дочерний Python, как правило, получает `None`. Во второй переменная экспортирована, поэтому новая программа видит `local`.
+
+### Почему запуск из systemd отличается от терминала
+
+У systemd-службы собственный набор переменных и своя рабочая директория. Если `torch` выбирает модель по `MODEL_PATH`, отсутствие переменной может заставить его искать значение по умолчанию, а неправильный `WorkingDirectory` сделает относительный путь неверным.
+
+Проверка `printenv MODEL_PATH` в твоей SSH-сессии ничего не доказывает о переменной **сервисного процесса**. Нужно изучить unit и фактическую конфигурацию запуска.
+
+### Что такое environment, а что — аргументы CLI
+
+`python infer.py --device cuda` получает аргументы в argv. `CUDA_VISIBLE_DEVICES=0 python infer.py` получает настройку через environment. Программе придётся явно читать ту или другую форму, иначе значение не окажет эффекта само по себе.
