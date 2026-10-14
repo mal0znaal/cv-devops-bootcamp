@@ -1,0 +1,27 @@
+{
+  "title": "28. Первые Bash-скрипты: shebang, аргументы, переменные",
+  "description": "Linux: фундамент + теория, практика, документация",
+  "details": {
+    "intro": {
+      "text": "intro.md"
+    },
+    "steps": [
+      {
+        "title": "Напиши скрипт с аргументом",
+        "text": "step1/text.md",
+        "verify": "step1/verify.sh"
+      },
+      {
+        "title": "Скрипт для подготовки структуры проекта",
+        "text": "step2/text.md",
+        "verify": "step2/verify.sh"
+      }
+    ],
+    "finish": {
+      "text": "finish.md"
+    }
+  },
+  "backend": {
+    "imageid": "ubuntu"
+  }
+}

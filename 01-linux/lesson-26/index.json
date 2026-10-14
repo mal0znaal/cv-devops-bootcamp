@@ -1,0 +1,27 @@
+{
+  "title": "26. SSH: ключи, клиент, known_hosts и безопасный доступ",
+  "description": "Linux: фундамент + теория, практика, документация",
+  "details": {
+    "intro": {
+      "text": "intro.md"
+    },
+    "steps": [
+      {
+        "title": "Создай безопасную учебную пару ключей",
+        "text": "step1/text.md",
+        "verify": "step1/verify.sh"
+      },
+      {
+        "title": "Используй ssh config и режим проверки",
+        "text": "step2/text.md",
+        "verify": "step2/verify.sh"
+      }
+    ],
+    "finish": {
+      "text": "finish.md"
+    }
+  },
+  "backend": {
+    "imageid": "ubuntu"
+  }
+}

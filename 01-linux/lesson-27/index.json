@@ -1,0 +1,27 @@
+{
+  "title": "27. Переменные окружения и жизненный цикл shell",
+  "description": "Linux: фундамент + теория, практика, документация",
+  "details": {
+    "intro": {
+      "text": "intro.md"
+    },
+    "steps": [
+      {
+        "title": "Установи и экспортируй переменную",
+        "text": "step1/text.md",
+        "verify": "step1/verify.sh"
+      },
+      {
+        "title": "Передай переменную конкретному процессу",
+        "text": "step2/text.md",
+        "verify": "step2/verify.sh"
+      }
+    ],
+    "finish": {
+      "text": "finish.md"
+    }
+  },
+  "backend": {
+    "imageid": "ubuntu"
+  }
+}

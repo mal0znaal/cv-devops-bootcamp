@@ -1,0 +1,27 @@
+{
+  "title": "29. Надёжный Bash: условия, коды ошибок, pipefail, trap",
+  "description": "Linux: фундамент + теория, практика, документация",
+  "details": {
+    "intro": {
+      "text": "intro.md"
+    },
+    "steps": [
+      {
+        "title": "Проверь обязательный аргумент",
+        "text": "step1/text.md",
+        "verify": "step1/verify.sh"
+      },
+      {
+        "title": "Увидь разницу с pipefail",
+        "text": "step2/text.md",
+        "verify": "step2/verify.sh"
+      }
+    ],
+    "finish": {
+      "text": "finish.md"
+    }
+  },
+  "backend": {
+    "imageid": "ubuntu"
+  }
+}

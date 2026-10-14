@@ -1,0 +1,27 @@
+{
+  "title": "31. Обработка логов по-взрослому: sed, awk, regex",
+  "description": "Linux: фундамент + теория, практика, документация",
+  "details": {
+    "intro": {
+      "text": "intro.md"
+    },
+    "steps": [
+      {
+        "title": "Создай метрики из псевдологов",
+        "text": "step1/text.md",
+        "verify": "step1/verify.sh"
+      },
+      {
+        "title": "Исправь копию, не исходник",
+        "text": "step2/text.md",
+        "verify": "step2/verify.sh"
+      }
+    ],
+    "finish": {
+      "text": "finish.md"
+    }
+  },
+  "backend": {
+    "imageid": "ubuntu"
+  }
+}
