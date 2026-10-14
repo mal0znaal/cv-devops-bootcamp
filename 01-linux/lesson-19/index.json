@@ -1,0 +1,27 @@
+{
+  "title": "19. Диагностика CPU и RAM: load average, top, free",
+  "description": "Linux · глубокая теория и практические проверки",
+  "details": {
+    "intro": {
+      "text": "intro.md"
+    },
+    "steps": [
+      {
+        "title": "Проверь число CPU",
+        "text": "step1/text.md",
+        "verify": "step1/verify.sh"
+      },
+      {
+        "title": "Найди правильное поле памяти",
+        "text": "step2/text.md",
+        "verify": "step2/verify.sh"
+      }
+    ],
+    "finish": {
+      "text": "finish.md"
+    }
+  },
+  "backend": {
+    "imageid": "ubuntu"
+  }
+}

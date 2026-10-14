@@ -1,0 +1,27 @@
+{
+  "title": "21. systemd: сервисы, unit-файлы и управление жизненным циклом",
+  "description": "Linux · глубокая теория и практические проверки",
+  "details": {
+    "intro": {
+      "text": "intro.md"
+    },
+    "steps": [
+      {
+        "title": "Напиши unit и подготовь данные",
+        "text": "step1/text.md",
+        "verify": "step1/verify.sh"
+      },
+      {
+        "title": "Запусти и проверь сервис",
+        "text": "step2/text.md",
+        "verify": "step2/verify.sh"
+      }
+    ],
+    "finish": {
+      "text": "finish.md"
+    }
+  },
+  "backend": {
+    "imageid": "ubuntu"
+  }
+}

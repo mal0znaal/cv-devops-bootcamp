@@ -1,0 +1,27 @@
+{
+  "title": "23. Пакетные менеджеры: apt, dpkg, репозитории, зависимости",
+  "description": "Linux · глубокая теория и практические проверки",
+  "details": {
+    "intro": {
+      "text": "intro.md"
+    },
+    "steps": [
+      {
+        "title": "Определи пакет бинарника ls",
+        "text": "step1/text.md",
+        "verify": "step1/verify.sh"
+      },
+      {
+        "title": "Узнай установленную версию",
+        "text": "step2/text.md",
+        "verify": "step2/verify.sh"
+      }
+    ],
+    "finish": {
+      "text": "finish.md"
+    }
+  },
+  "backend": {
+    "imageid": "ubuntu"
+  }
+}

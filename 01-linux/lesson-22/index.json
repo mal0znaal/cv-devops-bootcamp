@@ -1,0 +1,27 @@
+{
+  "title": "22. systemd-journald, journalctl: где искать ошибки",
+  "description": "Linux · глубокая теория и практические проверки",
+  "details": {
+    "intro": {
+      "text": "intro.md"
+    },
+    "steps": [
+      {
+        "title": "Сгенерируй осмысленное событие",
+        "text": "step1/text.md",
+        "verify": "step1/verify.sh"
+      },
+      {
+        "title": "Сохрани отфильтрованный журнал",
+        "text": "step2/text.md",
+        "verify": "step2/verify.sh"
+      }
+    ],
+    "finish": {
+      "text": "finish.md"
+    }
+  },
+  "backend": {
+    "imageid": "ubuntu"
+  }
+}
