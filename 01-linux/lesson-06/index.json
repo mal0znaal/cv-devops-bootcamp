@@ -1,0 +1,27 @@
+{
+  "title": "06. Создание, копирование, перемещение, удаление файлов",
+  "description": "Linux / подробно + практика / 45–65 минут",
+  "details": {
+    "intro": {
+      "text": "intro.md"
+    },
+    "steps": [
+      {
+        "title": "Скопируй файл с пробелом в имени",
+        "text": "step1/text.md",
+        "verify": "step1/verify.sh"
+      },
+      {
+        "title": "Удали только временные данные",
+        "text": "step2/text.md",
+        "verify": "step2/verify.sh"
+      }
+    ],
+    "finish": {
+      "text": "finish.md"
+    }
+  },
+  "backend": {
+    "imageid": "ubuntu"
+  }
+}

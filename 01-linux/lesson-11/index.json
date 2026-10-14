@@ -1,0 +1,27 @@
+{
+  "title": "11. Поиск файлов: find, типы, имена, размеры",
+  "description": "Linux / подробно + практика / 55–75 минут",
+  "details": {
+    "intro": {
+      "text": "intro.md"
+    },
+    "steps": [
+      {
+        "title": "Создай файловое дерево датасета",
+        "text": "step1/text.md",
+        "verify": "step1/verify.sh"
+      },
+      {
+        "title": "Получение списка моделей",
+        "text": "step2/text.md",
+        "verify": "step2/verify.sh"
+      }
+    ],
+    "finish": {
+      "text": "finish.md"
+    }
+  },
+  "backend": {
+    "imageid": "ubuntu"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "title": "10. Поиск текста: grep, строки логов, regex и коды выхода",
+  "description": "Linux / подробно + практика / 55–80 минут",
+  "details": {
+    "intro": {
+      "text": "intro.md"
+    },
+    "steps": [
+      {
+        "title": "Создай журнал событий",
+        "text": "step1/text.md",
+        "verify": "step1/verify.sh"
+      },
+      {
+        "title": "Отфильтруй только ошибки",
+        "text": "step2/text.md",
+        "verify": "step2/verify.sh"
+      }
+    ],
+    "finish": {
+      "text": "finish.md"
+    }
+  },
+  "backend": {
+    "imageid": "ubuntu"
+  }
+}

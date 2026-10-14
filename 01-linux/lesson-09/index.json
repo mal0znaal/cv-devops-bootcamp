@@ -1,0 +1,27 @@
+{
+  "title": "09. Кавычки, пробелы, переменные и расширения Bash",
+  "description": "Linux / подробно + практика / 60–85 минут",
+  "details": {
+    "intro": {
+      "text": "intro.md"
+    },
+    "steps": [
+      {
+        "title": "Проверь раскрытие переменных",
+        "text": "step1/text.md",
+        "verify": "step1/verify.sh"
+      },
+      {
+        "title": "Защити путь с пробелами",
+        "text": "step2/text.md",
+        "verify": "step2/verify.sh"
+      }
+    ],
+    "finish": {
+      "text": "finish.md"
+    }
+  },
+  "backend": {
+    "imageid": "ubuntu"
+  }
+}
