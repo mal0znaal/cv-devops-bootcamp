@@ -1,0 +1,21 @@
+{
+  "title": "Модуль 01 · Linux: фундамент",
+  "description": "Подробная теория, практика в Ubuntu, чтение документации, автопроверки",
+  "items": [
+    {
+      "path": "lesson-01"
+    },
+    {
+      "path": "lesson-02"
+    },
+    {
+      "path": "lesson-03"
+    },
+    {
+      "path": "lesson-04"
+    },
+    {
+      "path": "lesson-05"
+    }
+  ]
+}

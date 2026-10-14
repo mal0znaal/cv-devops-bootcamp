@@ -1,0 +1,27 @@
+{
+  "title": "02. Команда изнутри: имя, аргументы, флаги и PATH",
+  "description": "Linux / теория + 2 практики / 40–60 минут",
+  "details": {
+    "intro": {
+      "text": "intro.md"
+    },
+    "steps": [
+      {
+        "title": "Найди путь к внешней программе",
+        "text": "step1/text.md",
+        "verify": "step1/verify.sh"
+      },
+      {
+        "title": "Найди два флага по справке",
+        "text": "step2/text.md",
+        "verify": "step2/verify.sh"
+      }
+    ],
+    "finish": {
+      "text": "finish.md"
+    }
+  },
+  "backend": {
+    "imageid": "ubuntu"
+  }
+}

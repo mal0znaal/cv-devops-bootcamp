@@ -1,0 +1,27 @@
+{
+  "title": "05. Каталоги и маски: ls -la, скрытые файлы, *, ?",
+  "description": "Linux / теория + 2 практики / 45–60 минут",
+  "details": {
+    "intro": {
+      "text": "intro.md"
+    },
+    "steps": [
+      {
+        "title": "Создай заметные и скрытый файлы",
+        "text": "step1/text.md",
+        "verify": "step1/verify.sh"
+      },
+      {
+        "title": "Получение списка через маску",
+        "text": "step2/text.md",
+        "verify": "step2/verify.sh"
+      }
+    ],
+    "finish": {
+      "text": "finish.md"
+    }
+  },
+  "backend": {
+    "imageid": "ubuntu"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "title": "03. Чтение man, --help, SYNOPSIS и документации",
+  "description": "Linux / теория + 2 практики / 45–75 минут",
+  "details": {
+    "intro": {
+      "text": "intro.md"
+    },
+    "steps": [
+      {
+        "title": "Самостоятельно найди флаг mkdir",
+        "text": "step1/text.md",
+        "verify": "step1/verify.sh"
+      },
+      {
+        "title": "Узнай неизвестную команду через help",
+        "text": "step2/text.md",
+        "verify": "step2/verify.sh"
+      }
+    ],
+    "finish": {
+      "text": "finish.md"
+    }
+  },
+  "backend": {
+    "imageid": "ubuntu"
+  }
+}
