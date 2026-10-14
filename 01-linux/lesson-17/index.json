@@ -1,0 +1,27 @@
+{
+  "title": "17. Владельцы, chown, sudo и минимальные привилегии",
+  "description": "Linux · теория и две лабораторные · 55–75 минут",
+  "details": {
+    "intro": {
+      "text": "intro.md"
+    },
+    "steps": [
+      {
+        "title": "Проверь владельца и группу файла",
+        "text": "step1/text.md",
+        "verify": "step1/verify.sh"
+      },
+      {
+        "title": "Назначь режим конфигурации",
+        "text": "step2/text.md",
+        "verify": "step2/verify.sh"
+      }
+    ],
+    "finish": {
+      "text": "finish.md"
+    }
+  },
+  "backend": {
+    "imageid": "ubuntu"
+  }
+}

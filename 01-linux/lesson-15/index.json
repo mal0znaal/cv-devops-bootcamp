@@ -1,0 +1,27 @@
+{
+  "title": "15. Пользователи, группы, UID/GID и root",
+  "description": "Linux · теория и две лабораторные · 55–75 минут",
+  "details": {
+    "intro": {
+      "text": "intro.md"
+    },
+    "steps": [
+      {
+        "title": "Исследуй собственный UID и GID",
+        "text": "step1/text.md",
+        "verify": "step1/verify.sh"
+      },
+      {
+        "title": "Прочитай учётную запись из системной базы",
+        "text": "step2/text.md",
+        "verify": "step2/verify.sh"
+      }
+    ],
+    "finish": {
+      "text": "finish.md"
+    }
+  },
+  "backend": {
+    "imageid": "ubuntu"
+  }
+}

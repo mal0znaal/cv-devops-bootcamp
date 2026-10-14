@@ -1,0 +1,27 @@
+{
+  "title": "12. Текст как конвейер данных: sort, uniq, cut, tr, tee",
+  "description": "Linux · теория и две лабораторные · 55–80 минут",
+  "details": {
+    "intro": {
+      "text": "intro.md"
+    },
+    "steps": [
+      {
+        "title": "Частотность HTTP-кодов",
+        "text": "step1/text.md",
+        "verify": "step1/verify.sh"
+      },
+      {
+        "title": "Научись сохранять поток через tee",
+        "text": "step2/text.md",
+        "verify": "step2/verify.sh"
+      }
+    ],
+    "finish": {
+      "text": "finish.md"
+    }
+  },
+  "backend": {
+    "imageid": "ubuntu"
+  }
+}

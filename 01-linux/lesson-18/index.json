@@ -1,0 +1,27 @@
+{
+  "title": "18. Процессы, PID/PPID, ps, foreground/background, сигналы",
+  "description": "Linux · теория и две лабораторные · 60–85 минут",
+  "details": {
+    "intro": {
+      "text": "intro.md"
+    },
+    "steps": [
+      {
+        "title": "Отследи свой процесс sleep",
+        "text": "step1/text.md",
+        "verify": "step1/verify.sh"
+      },
+      {
+        "title": "Мягко заверши процесс",
+        "text": "step2/text.md",
+        "verify": "step2/verify.sh"
+      }
+    ],
+    "finish": {
+      "text": "finish.md"
+    }
+  },
+  "backend": {
+    "imageid": "ubuntu"
+  }
+}

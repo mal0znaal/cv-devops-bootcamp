@@ -1,0 +1,27 @@
+{
+  "title": "13. Ссылки, inode и что физически означает имя файла",
+  "description": "Linux · теория и две лабораторные · 55–75 минут",
+  "details": {
+    "intro": {
+      "text": "intro.md"
+    },
+    "steps": [
+      {
+        "title": "Почувствуй, что hard link — это второе имя",
+        "text": "step1/text.md",
+        "verify": "step1/verify.sh"
+      },
+      {
+        "title": "Создай символическую ссылку",
+        "text": "step2/text.md",
+        "verify": "step2/verify.sh"
+      }
+    ],
+    "finish": {
+      "text": "finish.md"
+    }
+  },
+  "backend": {
+    "imageid": "ubuntu"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "title": "16. Права файлов и директорий: rwx, chmod, umask",
+  "description": "Linux · теория и две лабораторные · 65–90 минут",
+  "details": {
+    "intro": {
+      "text": "intro.md"
+    },
+    "steps": [
+      {
+        "title": "Настрой строгие права конфигурации",
+        "text": "step1/text.md",
+        "verify": "step1/verify.sh"
+      },
+      {
+        "title": "Разреши выполнять свой скрипт",
+        "text": "step2/text.md",
+        "verify": "step2/verify.sh"
+      }
+    ],
+    "finish": {
+      "text": "finish.md"
+    }
+  },
+  "backend": {
+    "imageid": "ubuntu"
+  }
+}
