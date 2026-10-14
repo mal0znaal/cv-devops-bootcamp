@@ -1,0 +1,22 @@
+{
+  "title": "Linux: первая лабораторная",
+  "description": "Проверь работу Linux-терминала и автопроверки Killercoda — CV DevOps Bootcamp",
+  "details": {
+    "intro": {
+      "text": "intro.md"
+    },
+    "steps": [
+      {
+        "title": "Создай файл через терминал",
+        "text": "step1/text.md",
+        "verify": "step1/verify.sh"
+      }
+    ],
+    "finish": {
+      "text": "finish.md"
+    }
+  },
+  "backend": {
+    "imageid": "ubuntu"
+  }
+}
