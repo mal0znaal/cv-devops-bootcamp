@@ -46,6 +46,7 @@ MODE=production python3 -c 'import os; print(os.getenv("MODE"))'
 ## Как проверить наследование окружения без догадок
 
 ~~~bash
+unset CV_TEST
 CV_TEST=local
 python3 -c 'import os; print(os.getenv("CV_TEST"))'
 export CV_TEST
